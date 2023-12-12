@@ -1,0 +1,55 @@
+/* 상단 매뉴 영역 */
+#menu_container {
+  width: 100%;
+  height: 90px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFDDBB;
+  margin-bottom: 90px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 30px;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+
+}
+
+.menu li a:hover {
+  color: #FF6347;
+  transition: all 0.5s;
+}
+
+/* 슬릭 사진 영역 */
+#photo_container {
+  width: 590px;
+  height: 600px;
+  margin-top: 30px;
+}
+
+.post1 {
+  max-width: 590px;
+  max-height: 600px;
+}
+
+.h3_1 {
+  text-align: left;
+}
