@@ -48,7 +48,7 @@
   width: 590px;
   height: 600px;
   margin-top: 30px;
-  margin-right: 50px;
+  margin-right: 300px;
 }
 
 .post1 {
@@ -88,4 +88,51 @@
 
 #todolist input[type="text"]:focus {
   border-bottom: 1px solid #FF6347;
+}
+
+
+
+/*calender 영역*/
+#calendar table {
+  width: 900px;
+  height: 600px;
+  margin-left: 300px;
+  border-collapse: collapse;
+}
+
+#calendar table tr {
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+#calendar table tr th {
+  background-color: beige;
+  font-weight: bolder;
+  font-size: large;
+}
+
+#calendar table tr:nth-child(2) td:first-child {
+  color: gray !important;
+  /* 글자 색을 흰색으로 설정 */
+}
+
+#calendar table tr:nth-child(2) td:nth-child(7) {
+  color: gray !important;
+  /* 글자 색을 흰색으로 설정 */
+}
+
+#calendar table tr td:nth-child(1) {
+  color: red;
+}
+
+
+#calendar table tr td:nth-child(7) {
+  color: blue;
+}
+
+
+
+#calendar table tr td:hover {
+  background-color: #FF6347;
+  color: white;
 }
