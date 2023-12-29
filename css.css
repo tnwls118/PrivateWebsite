@@ -38,11 +38,17 @@
   transition: all 0.5s;
 }
 
+/*1문단 영역*_슬릭, todolist포함*/
+#firstScreen {
+  display: flex;
+}
+
 /* 슬릭 사진 영역 */
 #photo_container {
   width: 590px;
   height: 600px;
   margin-top: 30px;
+  margin-right: 50px;
 }
 
 .post1 {
@@ -50,6 +56,36 @@
   max-height: 600px;
 }
 
-.h3_1 {
-  text-align: left;
+
+/*todolist 영역*/
+#todolist {
+  width: 330px;
+  height: 600px;
+}
+
+#todolist ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#todolist li {
+  margin-bottom: 10px;
+  /* 각각의 입력 상자 사이의 간격 조절 */
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+#todolist input[type="text"] {
+  width: 100%;
+  /* 여백을 고려한 너비 조절 */
+  padding: 10px;
+  /* 입력 상자의 내부 여백 조절 */
+  box-sizing: border-box;
+  /* 여백을 너비에 포함하도록 설정 */
+  border: none;
+}
+
+#todolist input[type="text"]:focus {
+  border-bottom: 1px solid #FF6347;
 }
